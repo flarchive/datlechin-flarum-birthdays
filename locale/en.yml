@@ -1,0 +1,23 @@
+datlechin-birthdays:
+  admin:
+    settings:
+      set_on_registration_label: Allow setting birthdays on registration
+
+  forum:
+    user:
+      birthday_text: "Birthday: {date}"
+      age_text: "Age: {age}"
+    header:
+      edit_dob_button: Edit Date of Birth
+    change_dob:
+      title: Edit Date of Birth
+      date_of_birth_text: Date of Birth
+      submit_button: => core.ref.save_changes
+    settings:
+      change_dob_label: Change Date of Birth
+      dob_heading: Date of Birth
+      show_dob_date_label: Show day and month of birth
+      show_dob_year_label: Show year of birth
+      show_dob_year_help: This will allow people to see your age.
+    edit_user:
+      dob_heading: Date of Birth
